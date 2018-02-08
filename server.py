@@ -27,7 +27,6 @@ def process():
     # we'll talk about the following two lines after we learn a little more
     # about forms
     name = request.form['name']
-    email = request.form['email']       # redirects back to the '/' route
 
     print 'Name: {}'.format(name)
 
